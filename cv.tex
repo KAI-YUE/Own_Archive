@@ -1,0 +1,145 @@
+% Updated September 17, 2026.
+% Requires the accompanying resume.cls. Do not compile without user authorization.
+% To complete later: start dates for consulting and the game creation and publishing
+% platform; current phone number.
+% No subscriber count is a paid-member count or a revenue claim.
+\documentclass{resume}
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry}
+\usepackage[hidelinks]{hyperref}
+
+\name{Kai Yue}
+\address{Technical Lead}
+\address{\href{mailto:eric.kaiyue@gmail.com}{eric.kaiyue@gmail.com}}
+\address{\href{https://kaiyue.netlify.app}{kaiyue.netlify.app} \\
+         \href{https://github.com/KAI-YUE}{github.com/KAI-YUE}}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+% PROFILE
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Profile}
+ML researcher turned AI product engineer and technical lead, specializing in
+agent workflows, product architecture, and engineering delivery. At Jobdream,
+translate merchant operations into agent systems and oversee implementation quality.
+Independently building a game creation and publishing platform, and previously built
+an investment-education membership business reaching approximately 300--400 paying
+members and an estimated \$9,000--\$12,000 in peak monthly recurring revenue. Open to co-founder conversations or joining an
+early-stage team building agentic products.
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% BUSINESS AND ENGINEERING EXPERIENCE
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Business \& Engineering Experience}
+    \begin{rSubsection}{Technical Lead --- Agent Architecture \& Engineering Delivery}{2025--Present}
+        {Jobdream --- Private AI education and applied agent systems company, founded in 2020}{}
+        \item Translate B2B merchant operating requirements into modular agent workflows, defining responsibilities for input parsing, low-stock monitoring, and scheduled freshness checks.
+        \item Test merchant workflows hands-on with the team; use findings to refine system behavior, improve usability for nontechnical owners, and assess readiness for delivery.
+        \item Provide technical oversight for outsourced teams of one to several engineers; evaluate vendors and delivery scope, review architecture and code, and make technical acceptance decisions.
+    \end{rSubsection}
+
+    \begin{rSubsection}{Agentic Game Platform}{Selected Project}
+        {Game creation and publishing platform}{}
+        \item Build an agentic platform that lets users create and publish games through vibe coding, coordinating code, 2D animation, shaders, and other assets from concept to playable implementation.
+        \item Use Codex throughout a reviewable feature-delivery loop: translate product intent into scoped changes, inspect architecture and diffs, run automated checks, and iterate against live product behavior.
+        \item Use the platform to develop a L\"OVE-based game in Lua; refine core mechanics and feed development friction back into improvements to the creation pipeline.
+    \end{rSubsection}
+
+    \begin{rSubsection}{Founder --- Investment Education Membership Business}{2023--2025}
+        {YouTube audience and paid Telegram membership}{}
+        \item Built and operated a \$30/month paid membership, reaching approximately 300--400 paying members and an estimated \$9,000--\$12,000 in peak monthly recurring revenue.
+        \item Grew a YouTube audience to a peak of 9,000+ subscribers and converted viewers into members of the paid Telegram community.
+        \item Deliberately wound down active membership as AI tutoring commoditized the service's core explanations, encouraging members to build and test their own investment models using the principles and Python-based methods taught in the community.
+    \end{rSubsection}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% TECHNICAL CAPABILITIES
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Technical Capabilities}
+    \textbf{Product \& Agent Systems:} Modular agent workflows, workflow validation,
+    architecture and code review, vendor evaluation, and technical acceptance.\\
+    \textbf{Product Stack:} TypeScript, React, Next.js, PostgreSQL/SQL;
+    Python for agent services and data workflows.\\
+    \textbf{Additional Languages:} Lua, C, C++.
+\end{rSection}
+
+\newpage
+
+%----------------------------------------------------------------------------------------
+% RESEARCH EXPERIENCE
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Research Experience}
+    \begin{rSubsection}{NC State University --- Machine Learning Research}{2021--2025}
+        {Doctoral Research}{}
+        \item Designed federated-learning methods addressing data heterogeneity, communication efficiency, and Byzantine attacks.
+        \item Demonstrated limitations of gradient-obfuscation defenses through image-reconstruction attacks.
+    \end{rSubsection}
+
+    \begin{rSubsection}{UCLA --- VCLA Summer Research Intern}{Jul.--Sep. 2019}
+        {Center for Vision, Cognition, Learning, and Autonomy}{}
+        \item Improved a ROS-based glove interface for real-time hand-pose tracking and interaction in MuJoCo.
+        \item Developed autoencoder-based hand-pose reconstruction in follow-up collaboration, informing later USENIX Security 2023 research.
+    \end{rSubsection}
+
+    \begin{rSubsection}{USTC --- Undergraduate Researcher}{Aug. 2018--Jan. 2020}
+        {MOE--Microsoft Key Laboratory of Multimedia Computing and Communication (MCC)}{}
+        \item Led reference-frame generation in a four-person team; achieved 28\% BD-rate savings and second place in WBVC 2018.
+        \item Applied insights from video coding to later predictive-coding research for FL (IEEE JSTSP 2022).
+    \end{rSubsection}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% EDUCATION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Education}
+    \textbf{Ph.D., Electrical Engineering --- NC State University} \hfill 2021--2025\\
+    Successfully defended in summer 2025.
+    % Defense June/July 2025; commencement December 2025, not a conferral date.
+
+    \textbf{B.E., Electronic Information Engineering --- USTC} \hfill 2016--2020\\
+    Honorable Title of Excellent Undergraduate Students 2020.
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% SELECTED PUBLICATIONS
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Selected Publications}
+    \textbf{ICML 2025:}
+    \href{https://proceedings.mlr.press/v267/thompson25a.html}{NTK-DFL: Enhancing Decentralized Federated Learning in Heterogeneous Settings via Neural Tangent Kernel}.
+    G. Thompson, \textbf{K. Yue}, C.-W. Wong, H. Dai.
+
+    \textbf{USENIX Security 2023:}
+    \href{https://www.usenix.org/conference/usenixsecurity23/presentation/yue}{Gradient Obfuscation Gives a False Sense of Security in Federated Learning}.
+    \textbf{K. Yue}, R. Jin, C.-W. Wong, D. Baron, H. Dai.
+
+    \textbf{ICML 2022:}
+    \href{https://arxiv.org/abs/2110.03681}{Neural Tangent Kernel Empowered Federated Learning}.
+    \textbf{K. Yue}, R. Jin, R. Pilgrim, C.-W. Wong, D. Baron, H. Dai.
+
+    \textbf{IEEE JSTSP 2022:}
+    \href{https://predfl.netlify.app/}{Communication-Efficient Federated Learning via Predictive Coding}.
+    \textbf{K. Yue}, R. Jin, C.-W. Wong, H. Dai. Vol. 16, no. 3, pp. 369--380.
+
+    \href{https://scholar.google.com/citations?user=5uWEGF8AAAAJ&hl=en}{Full publication list on Google Scholar}.
+    % TernaryVote omitted from selected publications: current status unconfirmed.
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% SELECTED RECOGNITION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Selected Recognition}
+    \begingroup
+    \renewcommand{\arraystretch}{1.15}
+    \begin{tabular}{@{}p{0.78\linewidth}@{\hspace{0.02\linewidth}}>{\raggedleft\arraybackslash}p{0.20\linewidth}@{}}
+        \textbf{NC State Graduate Award} --- recurring annual recipient & Through 2025 \\
+        \textbf{IYLFS Competition --- Third Place}\newline
+        {\small Team-built AI tutoring platform} & 2019 \\
+        \textbf{Tang Lixin Scholarship} & 2018 \\
+        \textbf{China National Scholarship} --- top 1\% & 2018
+    \end{tabular}
+    \endgroup
+\end{rSection}
+
+\end{document}
